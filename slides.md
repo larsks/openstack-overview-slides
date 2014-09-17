@@ -1,15 +1,16 @@
 # OpenStack Overview
 
+MIT Kerberos Day  
 September 17, 2014  
 Lars Kellogg-Stedman <lars@redhat.com>  
+
+<http://oddbit.com/openstack-overview-slides/#/>
 
 ---
 
 # What is OpenStack?
 
 ---
-
-OpenStack is exciting!
 
 <img src="images/thecloud.png" width="900"/>
 
@@ -19,8 +20,6 @@ It's freedom from the white box under your desk! It's ushering in a
 new era of enlightened access to infrastructure resources!
 
 ---
-
-It's up to you to put it together.
 
 ![A bunch of legos](images/bulklegos.jpg)
 
@@ -271,13 +270,6 @@ instances of that service.
 
 ---
 
-## Policy engine
-
-- "Action `publicize_image` requires `role:admin`"
-- Deployer can control local policy via `policy.json` files
-
----
-
 # Nova
 
 ## Compute Service
@@ -320,10 +312,7 @@ instances of that service.
 
 ---
 
-- And also...
-
-  - Resource quotas
-  - Remote console access
+![Nova architecture](images/nova-arch.png)
 
 ---
 
@@ -516,6 +505,6 @@ are looking for more information.)
 
 ---
 
-These slides are available online from:
+The sources for these slides are available from:
 
 - <https://github.com/larsks/openstack-overview-slides/>
